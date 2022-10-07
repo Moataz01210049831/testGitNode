@@ -3,6 +3,8 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 const blogs=require('./models/blog');
 const laws = require('./models/law');
+
+//edit for git
 // express app
 const app = express();
 const database='mongodb+srv://moataz:01210049831@cluster0.bvysjsn.mongodb.net/node-test?retryWrites=true&w=majority';
